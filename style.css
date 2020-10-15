@@ -19,13 +19,15 @@ button {
 
 header {
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-between; */
+  justify-content: flex-end;
   align-items: center;
   padding: 30px 10%;
 }
 
 .logo {
   cursor: pointer;
+  margin-right: auto;
 }
 
 .nav__links {
@@ -46,6 +48,7 @@ header {
 }
 
 button {
+  margin-left: 20px;
   padding: 9px 25px;
   background-color: rgba(0, 136, 169, 1);
   border: none;
