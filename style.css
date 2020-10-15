@@ -27,7 +27,13 @@ header {
 
 .logo {
   cursor: pointer;
-  margin-right: auto;
+  /* margin-right: auto; */
+  order: 3;
+  margin-left: auto;
+}
+
+nav {
+  order: 1;
 }
 
 .nav__links {
@@ -39,12 +45,20 @@ header {
   padding: 0px 20px;
 }
 
+.nav__links li:nth-child(1) {
+  padding: 0 20px 0 0;
+}
+
 .nav__links li a {
   transition: all 0.3s ease 0s;
 }
 
 .nav__links li a:hover {
   color: #0088a9;
+}
+
+.cta {
+  order: 2;
 }
 
 button {
